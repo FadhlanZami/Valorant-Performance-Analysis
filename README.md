@@ -27,7 +27,7 @@ To get started, you'll need to install the required libraries. The following com
 
 ### 1. **Data Preprocessing**
 
-- **File**: `data_preprocessing.py ', 'clustering_analysis.py'
+- **File**: `data_preprocessing.py`, `clustering_analysis.py`
 - **Functionality**: This script reads the raw dataset, handles missing values in both numerical and categorical columns, and saves the preprocessed data to a new file.
 
 ### 2. **Data Filtering**
