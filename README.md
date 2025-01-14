@@ -39,6 +39,10 @@ To get started, you'll need to install the required libraries. The following com
 
 - **File**: `performance_classification.py`
 - **Functionality**: This script classifies players' performance into categories based on their rating. It then builds a Random Forest model for predicting player performance using match statistics. this  step use K-Means Clustering Method . K-Means Clustering is a popular unsupervised machine learning algorithm used for partitioning data into distinct groups (clusters) based on feature similarities. In the context of performance classification, K-Means can be used to group players based on their performance metrics into distinct categories, such as "High", "Medium", and "Low" performers.
+### 4. **Dashboard**
+
+- **Link**: https://github.com/FadhlanZami/Franchise-Valorant-Dashboard
+- **Functionality**: This dashboard script provides an interactive visualization and analysis of Valorant player statistics. It uses various match metrics to classify player performance into different categories based on their ratings. The dashboard integrates multiple machine learning techniques, including **K-Means Clustering**, to group players based on performance metrics like kills, deaths, average combat score, and other in-game statistics.
 
 ## License
 
