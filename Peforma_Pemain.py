@@ -20,9 +20,7 @@ def classify_performance(rating):
 df['Performance'] = df['Rating'].apply(classify_performance)
 
 # 3. Select Features and Labels
-features = df[['Average Combat Score', 'Kills:Deaths', 'Kill, Assist, Trade, Survive %', 'Average Damage Per Round',
-                'Kills Per Round', 'Assists Per Round', 'First Kills Per Round', 'First Deaths Per Round', 'Headshot %', 
-                'Clutch Success %', 'Maximum Kills in a Single Map', 'Kills', 'Deaths', 'Assists', 'First Kills', 'First Deaths']]  # Select features
+features = df[['Average Combat Score', 'Kills:Deaths', 'Average Damage Per Round']]  # Select features
 labels = df['Performance']
 
 # 4. Split Data into Train and Test Sets
