@@ -33,7 +33,7 @@ To get started, you'll need to install the required libraries. The following com
 
 ### 2. **Data Filtering**
 
-- **File**: `data_filtering.py`
+- **File**: `Filtered_data.py`
 - **Functionality**: This script filters the dataset based on match type and saves the filtered data.
 
 ### 3. **Performance Classification**
