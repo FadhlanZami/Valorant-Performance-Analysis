@@ -9,7 +9,6 @@ This repository contains a set of scripts for analyzing and predicting the perfo
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Overview
 
@@ -39,9 +38,5 @@ To get started, you'll need to install the required libraries. The following com
 ### 3. **Performance Classification**
 
 - **File**: `performance_classification.py`
-- **Functionality**: This script classifies players' performance into categories based on their rating. It then builds a Random Forest model for predicting player performance using match statistics.
+- **Functionality**: This script classifies players' performance into categories based on their rating. It then builds a Random Forest model for predicting player performance using match statistics. this  step use K-Means Clustering Method . K-Means Clustering is a popular unsupervised machine learning algorithm used for partitioning data into distinct groups (clusters) based on feature similarities. In the context of performance classification, K-Means can be used to group players based on their performance metrics into distinct categories, such as "High", "Medium", and "Low" performers.
 
-- ### 4. **Model Evaluation**
-
-- **File**: `model_evaluation.py`
-- **Functionality**: This script evaluates the Random Forest model using test data and outputs a classification report.
